@@ -5,7 +5,7 @@ var urlsToCache = [
     'js/jquery-3.5.1.js',
 ]
 
-self.addEventListener('install', function(e) {
+self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(CACHE_NAME).then(function(cache) {
             console.log('Cache Aberto')
@@ -14,7 +14,7 @@ self.addEventListener('install', function(e) {
     )
 })
 
-self.addEventListener('fetch', function(e) {
+self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request).then(function(response) {
             if (response) {
