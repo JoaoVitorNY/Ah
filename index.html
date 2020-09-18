@@ -12,6 +12,15 @@
             background-color: gray;
         }
     </style>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js").then(function() {
+                console.log("Service Worker registrado com sucesso!");
+            }).catch(function() {
+                console.log("Falha ao registrar Service Worker!");
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -35,6 +44,11 @@
             </ul>
         </div>
     </nav>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
+
 
 </html>
