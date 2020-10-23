@@ -7,14 +7,11 @@
     <title>Ah!</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <style>
-        body {
-            background-color: gray;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
     <script>
         if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("sw.js").then(function() {
+            navigator.serviceWorker.register("pwabuilder-sw.js").then(function() {
                 console.log("Service Worker registrado com sucesso!");
             }).catch(function() {
                 console.log("Falha ao registrar Service Worker!");
@@ -24,26 +21,30 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand"><img src="imgs/fruit.png"></img>
-        </a>
-        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="my-nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Ah</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Suporte</a>
-                </li>
-            </ul>
+    <div class="container">
+        <div class="box">
+            <div class="icon text-center"><img src="Assets/programming.png"></div>
+            <div class="content">
+                <h4>TM</h4>
+                <p>Aplicação do PWA Builder no projeto</p>
+            </div>
         </div>
-    </nav>
+        <div class="box">
+            <div class="icon text-center"><img src=""></div>
+            <div class="content">
+                <h4></h4>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon text-center"><img src=""></div>
+            <div class="content">
+                <h4></h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.js"></script>

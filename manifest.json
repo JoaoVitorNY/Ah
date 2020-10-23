@@ -1,40 +1,88 @@
 {
-    "name": "Apenas um teste",
-    "short_name": "testeSite",
-    "start_url": "/index.html",
-    "icons": [{
-            "src": "imgs/fruit48.png",
+    "name": "Site Oficial do JoaoVitorNy",
+    "short_name": "JoaoVitorNy",
+    "icons": [
+        {
+            "src": "/images/957cdd43-130a-8b0c-cadb-a3264b9852d6.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/62c80c78-b04b-0e63-2fcd-54b7df3f65b2.webPlatform.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "imgs/fruit72.png",
-            "sizes": "72x72",
+            "src": "/images/c0870f59-b5b9-84ca-e420-4a18c91adbe2.webPlatform.png",
+            "sizes": "1240x600",
             "type": "image/png"
         },
         {
-            "src": "imgs/fruit96.png",
+            "src": "/images/5ac60f05-9a09-8022-d919-9aa1122c7068.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6d2e962d-a89e-a364-a121-bf469a03ad44.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f9a7ac13-7513-4818-5d6f-11e2599c7cea.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/265054bf-addd-5d6d-56cf-8446a357e769.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/93ccd084-1692-4911-721d-0c0065c6d58c.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8a06b68d-e715-45dd-a442-75e39af506f8.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6482b935-a632-97a5-c300-6fdaba1cfd5e.webPlatform.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "imgs/fruit128.png",
-            "sizes": "128x128",
+            "src": "/images/946f7133-a4fa-5363-4860-41d4aa5aeda9.webPlatform.png",
+            "sizes": "36x36",
             "type": "image/png"
         },
         {
-            "src": "imgs/fruit256.png",
-            "sizes": "256x256",
+            "src": "/images/81c9bb16-6eb9-700c-2c5d-c0ec8d62b181.webPlatform.png",
+            "sizes": "1024x1024",
             "type": "image/png"
         },
         {
-            "src": "imgs/fruit512.png",
-            "sizes": "512x512",
+            "src": "/images/3083b409-7466-314c-76f3-9fafe0856a88.webPlatform.png",
+            "sizes": "32x32",
             "type": "image/png"
         }
     ],
-    "theme_color": "#95a5a6",
-    "background_color": "#fff",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.github.android",
+            "id": "com.github.android"
+        }
+    ],
+    "start_url": "https://github.com/JoaoVitorNY/index.html",
+    "background_color": "",
+    "url": "https://github.com/JoaoVitorNY/Ah.git",
+    "lang": "Portuguese",
+    "screenshots": [],
+    "description": "Aplicação do site oficial do João Yoshida",
     "display": "fullscreen",
-    "orientation": "any"
+    "orientation": "any",
+    "scope": "./"
 }
