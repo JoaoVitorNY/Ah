@@ -8,22 +8,30 @@
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <script>
-        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
-        const el = document.createElement('pwa-update');
-        document.body.appendChild(el);
-    </script>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="JoaoVitorNy">
+    <meta name="apple-mobile-web-app-title" content="JoaoVitorNy">
+    <meta name="theme-color" content="#22b0c3">
+    <meta name="msapplication-navbutton-color" content="#22b0c3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="https://joaovitorny.github.io/Ah/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script>
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("pwabuilder-sw.js").then(function() {
-                console.log("Service Worker registrado com sucesso!");
-            }).catch(function() {
-                console.log("Falha ao registrar Service Worker!");
-            });
-        }
-    </script>
+    <link rel="icon" type="image/png" sizes="512x512" href="icon512.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="icon512.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="icon256.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="icon256.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="icon128.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="icon128.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="icon64.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="64x64" href="icon64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon32.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="icon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon16.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="icon16.png"> if ("serviceWorker" in navigator) { if (navigator.serviceWorker.controller) { console.log("[Aplicativo] funcionário de serviço ativo encontrado, não há necessidade de registrar"); } else { navigator.serviceWorker .register("./sw.js", { scope: "./"
+    }) .then(function(reg) { console.log("[Aplicativo] O trabalhador do serviço foi registrado para o escopo: " + reg.scope); }); } }
 </head>
 
 <body>
@@ -49,7 +57,7 @@
 
     <div class="container">
         <div class="box">
-            <div class="icon text-center"><img src="Assets/programming.png"></div>
+            <div class="icon text-center"><img src="img/programming.png"></div>
             <div class="content">
                 <h4>TM</h4>
                 <p>Aplicação do PWA Builder no projeto</p>
