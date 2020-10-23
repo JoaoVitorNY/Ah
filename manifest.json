@@ -3,37 +3,38 @@
     "short_name": "JoaoVitorNy",
     "description": "Site de Testes para o PWA ",
     "lang": "pt-BR",
+    "start_url": "./",
     "scope": "./?",
     "display": "fullscreen",
     "orientation": "any",
     "theme_color": "#22b0c3",
     "icons": [{
-            "src": "img/icon512.png",
+            "src": "https://joaovitorny.github.io/Ah/img/icon512.png",
             "sizes": "512X512",
             "type": "image/png"
         },
         {
-            "src": "img/icon256.png",
+            "src": "https://joaovitorny.github.io/Ah/img/icon256.png",
             "sizes": "256X256",
             "type": "image/png"
         },
         {
-            "src": "img/icon128.png",
+            "src": "https://joaovitorny.github.io/Ah/img/icon128.png",
             "sizes": "128X128",
             "type": "image/png"
         },
         {
-            "src": "img/icon64.png",
+            "src": "https://joaovitorny.github.io/Ah/img/icon64.png",
             "sizes": "64X64",
             "type": "image/png"
         },
         {
-            "src": "img/icon32.png",
+            "src": "https://joaovitorny.github.io/Ah/img/icon32.png",
             "sizes": "32X32",
             "type": "image/png"
         },
         {
-            "src": "img/icon16.png",
+            "src": "https://joaovitorny.github.io/Ah/img/icon16.png",
             "sizes": "16X16",
             "type": "image/png"
         }
