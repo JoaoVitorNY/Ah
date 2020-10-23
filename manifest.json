@@ -10,32 +10,32 @@
     "theme_color": "#22b0c3",
     "icons": [{
             "src": "https://joaovitorny.github.io/Ah/img/icon512.png",
-            "sizes": "512X512",
+            "sizes": "512x512",
             "type": "image/png"
         },
         {
             "src": "https://joaovitorny.github.io/Ah/img/icon256.png",
-            "sizes": "256X256",
+            "sizes": "256x256",
             "type": "image/png"
         },
         {
             "src": "https://joaovitorny.github.io/Ah/img/icon128.png",
-            "sizes": "128X128",
+            "sizes": "128x128",
             "type": "image/png"
         },
         {
             "src": "https://joaovitorny.github.io/Ah/img/icon64.png",
-            "sizes": "64X64",
+            "sizes": "64x64",
             "type": "image/png"
         },
         {
             "src": "https://joaovitorny.github.io/Ah/img/icon32.png",
-            "sizes": "32X32",
+            "sizes": "32x32",
             "type": "image/png"
         },
         {
             "src": "https://joaovitorny.github.io/Ah/img/icon16.png",
-            "sizes": "16X16",
+            "sizes": "16x16",
             "type": "image/png"
         }
     ],
