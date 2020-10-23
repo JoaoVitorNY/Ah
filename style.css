@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
     float: left;
     text-align: center;
     border-radius: 10px;
-    background-color: white;
+    background-color: cyan;
     font-weight: bold;
 }
 
@@ -30,8 +30,23 @@ body {
     text-align: center;
     border-radius: 10px;
     background-color: blue;
-    transition-duration: 0.5s;
-    box-shadow: 10px 10px 8px white;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 8px black;
     color: white;
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 25px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2px;
+    color: cyan;
+}
+
+.navbar {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
 }
